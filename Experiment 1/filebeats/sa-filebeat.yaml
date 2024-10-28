@@ -11,7 +11,7 @@ metadata:
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
-  name: cluster-admin  # Use a more restrictive role in production
+  name: cluster-admin
 subjects:
 - kind: ServiceAccount
   name: filebeat
